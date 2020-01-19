@@ -1,7 +1,7 @@
 # IB-Index
 Scrapes www.ibindex.se for current weights and returns the number of stocks to buy in order to follow the index.
 
-IB-index follow investment companies on the Stockholm Stock Exchange. IB-index gives the companies an equal base weight which is often preferable compared to a market weighted index. The weighting is adjusted according to the Net Asset Value discount or premium,
+IB-index follow Swedish investment companies on the Stockholm Stock Exchange. IB-index gives the companies an equal base weight which is often preferable compared to a market weighted index. The weighting is adjusted according to the Net Asset Value discount or premium,
 a discount gives a company an increased weight in the index whereas a premium gives a reduced weight. 
 
 What is the rationale behind that? 
@@ -14,3 +14,5 @@ As an example, if investment company A has a market cap of 100 million SEK and o
 The above tables are downloaded with BeautifulSoup. By filling out how many stocks you currently own of each investment company and the amount you want to invest (perhaps a monthly investment), the following table is produced.
 
 <img src="https://github.com/hataloo/IB-Index/blob/master/IBIndexShowcase/recommendation.png" width="700">
+
+The table includes the number of stocks to buy (or sell) in order to best follow the index, how much each stock deviates from the index and how much of your invested money will remain.
