@@ -10,4 +10,7 @@ As an example, if investment company A has a market cap of 100 million SEK and o
 
 <img src="https://github.com/hataloo/IB-Index/blob/master/IBIndexShowcase/startpage.png" width="450">
 <img src="https://github.com/hataloo/IB-Index/blob/master/IBIndexShowcase/valuation.png" width="500">
-<img src="https://github.com/hataloo/IB-Index/blob/master/IBIndexShowcase/recommendation.png" width="500">
+
+The above tables are downloaded with BeautifulSoup. By filling out how many stocks you currently own of each investment company and the amount you want to invest (perhaps your monthly investment), the following table is produced.
+
+<img src="https://github.com/hataloo/IB-Index/blob/master/IBIndexShowcase/recommendation.png" width="700">
